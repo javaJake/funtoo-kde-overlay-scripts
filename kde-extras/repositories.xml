@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name><![CDATA[funtoo-kde-overlay]]></name>
+    <description lang="en"><![CDATA[KDE team's testing overlay (Funtoo Edition)]]></description>
+    <homepage>https://github.com/javaJake/funtoo-kde-overlay</homepage>
+    <owner type="person">
+      <email>jacobgodserv@gmail.com</email>
+      <name><![CDATA[Jacob Godserv]]></name>
+    </owner>
+    <source type="git">git://github.com/javaJake/funtoo-kde-overlay</source>
+    <feed>http://github.com/javaJake/funtoo-kde-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>

@@ -12,7 +12,7 @@ def kde_update():
 	intro_steps = [
 		GitCheckout("master"),
 		CleanTree(),
-		SyncDir("/home/jacob/funtoo-git/funtoo-kde-overlay-extras"),
+		SyncDir("/home/jacob/kde-funtoo-scripts/kde-extras"),
 	]
 	import_gentoo_steps = [
 		InsertEbuilds(gentoo_src, select=get_pkglist("kde-packages"), replace=True),
